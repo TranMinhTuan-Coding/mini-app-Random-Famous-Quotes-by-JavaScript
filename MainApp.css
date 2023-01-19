@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-background{
+    width: 100%;
+    height: 750px;
+    background-color: lightblue;
+
+    position: relative;
+}
+
+.main-button{
+    height: 39px;
+    width: 133px;
+    cursor: pointer;
+
+    border: 2px solid blue;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+
+    color: black;
+    background-color: white;
+
+    transition: all 0.2s ease;
+    
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+/* quotes-picture */
+.quotes-picture{
+    width: 70%;
+    height: 78%;
+
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+/* pictures */
+.quotes{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.pictures{
+    width: 55%;
+    height: 80%;
+
+    /* background-image: url('./Pictures/KEVINBACON.jfif'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%,0);
+}
+.main-button:hover{
+    color: white;
+    background-color: black;
+}
